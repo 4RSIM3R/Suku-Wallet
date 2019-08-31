@@ -12,10 +12,10 @@ class Parser {
     });
 
     factory Parser.fromJson(Map<String, dynamic> json) => new Parser(
-        saldo: json["Saldo"],
+        saldo: json["saldo"],
     );
 
     Map<String, dynamic> toJson() => {
-        "Saldo": saldo,
+        "saldo": saldo,
     };
 }
